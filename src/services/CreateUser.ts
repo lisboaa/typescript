@@ -3,8 +3,15 @@ interface CreateUserDate {
     name?: string;
     email: string;
     password: string;
+    techs: Array<string | TechObject>
 }
-export default function createUser({ name, email, password }: CreateUserDate) {
+
+interface TechObject {
+    title: string;
+    experience: number;
+}
+
+export default function createUser({ name, email, password, techs }: CreateUserDate) {
     const user = {
         name,
         email,
