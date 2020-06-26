@@ -3,7 +3,11 @@
 ## Introdução
 <p>Foi implementado funções com a utilização de interface e tipagem de dados com TypeScript, para fins de expanção de habilidade com TypeScript</p>
 
-### Para iniciar o projeto
+### Para baixar as dependencias do projeto
 ```
 yarn ou npm
+```
+### Iniciar projeto
+```
+yarn dev:server
 ```
